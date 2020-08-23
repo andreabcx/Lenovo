@@ -1,6 +1,8 @@
-console.log("加载成功");
-// //配置要引入所有模块
+"use strict";
+
+console.log("加载成功"); // //配置要引入所有模块
 // //配置引入的文件的路径
+
 require.config({
   paths: {
     jquery: "jquery-1.11.3",
@@ -16,10 +18,10 @@ require.config({
     "jquery-cookie": ["jquery"],
     //某一个模块，不遵从AMD
     parabola: {
-      exports: "_",
-    },
-  },
-})
+      exports: "_"
+    }
+  }
+});
 
 require(['index', 'banner', "nav"], function (index, banner, nav) {
   //     //下载首页的商品
@@ -32,8 +34,7 @@ require(['index', 'banner', "nav"], function (index, banner, nav) {
   //     index.sc_Goods_Delete_HandleClick();
   //     //实现+和-的功能
   //     index.sc_Good_Add_Minus_HandleClick();
-
   //     //实现轮播图效果
   // banner.bannerMain();
-  // nav.swiper();
-})
+  nav.mySwiper();
+});
