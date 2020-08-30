@@ -8,7 +8,9 @@ require.config({
     parabola: "parabola",
     index: "index",
     banner: "banner",
-    nav: "nav"
+    nav: "nav",
+    detailpage:"detailpage",
+    data:"data"
   },
   //jquery-cookie 依赖于jquery
   shim: {
@@ -21,8 +23,19 @@ require.config({
   },
 })
 
-require(['index', 'banner', "nav"], function (index, banner, nav) {
-  //     //下载首页的商品
+require(['index', 'banner', "nav", "detailpage","data"], function (index, banner, nav, detailpage,data) {
+    // detailpage.magnify();
+    // nav.swiper();
+    //主页数据
+    data.download();
+    // index.hover();
+})  
+
+
+
+
+
+//     //下载首页的商品
   //     index.download();
   //     //加入购物车按钮添加点击事件
   //     index.sc_BtnHandleClick();
@@ -34,6 +47,4 @@ require(['index', 'banner', "nav"], function (index, banner, nav) {
   //     index.sc_Good_Add_Minus_HandleClick();
 
   //     //实现轮播图效果
-  // banner.bannerMain();
-  // nav.swiper();
-})
+  //     banner.bannerMain();

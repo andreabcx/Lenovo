@@ -1,0 +1,193 @@
+@charset "UTF-8";
+a {
+  text-decoration: none; }
+
+em {
+  font-style: normal; }
+
+li {
+  list-style: none; }
+
+.header #lenovo_logo {
+  float: left;
+  width: 155px;
+  height: 50px;
+  transition: all .2s;
+  position: absolute; }
+
+#lenovo_logo img {
+  height: 100%; }
+
+.header_nav .content {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-right: 20px; }
+
+.header_nav .content .ul_nav li {
+  left: 20px; }
+
+.header_nav .content .lis {
+  float: left;
+  line-height: 49px;
+  font-size: 15px;
+  color: #8d8d8d;
+  margin-right: 12px;
+  margin-left: 22px;
+  cursor: pointer; }
+
+.header_nav .content .lis span {
+  cursor: default; }
+
+.header_nav .content .lis a {
+  color: #8d8d8d;
+  text-decoration: none; }
+
+.login_register {
+  float: left;
+  line-height: 50px;
+  position: relative; }
+
+.vertical-line {
+  border-left: 1px solid #b8b8b8;
+  height: 11px;
+  display: inline-block;
+  margin: auto 2px; }
+
+.ul_r {
+  float: right;
+  height: 49px; }
+
+.ul_r a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px; }
+
+.ul_r .phone {
+  float: right;
+  width: 30px;
+  height: 50px;
+  padding: 13.5px 0 13.5px 0px;
+  position: relative;
+  box-sizing: border-box;
+  margin-left: 20px; }
+
+.ul_r .phone img {
+  width: 23px;
+  height: 23px; }
+
+.login {
+  background-image: url(/images/login.jpg);
+  height: 590px;
+  background-size: cover; }
+
+.wrapper {
+  background-color: white;
+  margin: 0 70px 0 auto;
+  width: 400px; }
+
+.loginBox {
+  background-color: #f6f0f0;
+  /*上divcolor*/
+  border: 1px solid #000000;
+  color: #444;
+  font: 14px;
+  margin: 0 auto;
+  width: 400px;
+  position: absolute;
+  top: 150px; }
+
+.loginBox .loginBoxCenter {
+  border-bottom: 1px solid #DDE0E8;
+  padding: 24px; }
+
+.loginBox .loginBoxCenter p {
+  margin-bottom: 10px; }
+
+.loginBox .loginBoxCenter .vip {
+  margin-top: 4px;
+  margin-left: 4px;
+  font-size: 24px;
+  font-weight: 700; }
+
+.loginBox .loginBoxButtons {
+  /*background-color: #F0F4F6;*/
+  /*下divcolor*/
+  border-top: 0px solid #FFF;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  line-height: 28px;
+  overflow: hidden;
+  padding: 20px 24px;
+  vertical-align: center;
+  filter: alpha(Opacity=80);
+  -moz-opacity: 0.5;
+  opacity: 0.5; }
+
+.loginBox .loginBoxButtons .register a {
+  color: #000; }
+
+.loginBox .loginInput {
+  border: 1px solid #D2D9dC;
+  border-radius: 2px;
+  color: #444;
+  font: 12px 'Microsoft YaHei', '微软雅黑';
+  padding: 8px 14px;
+  margin-bottom: 8px;
+  width: 310px; }
+
+.loginBox .loginInput:FOCUS {
+  border: 1px solid #B7D4EA;
+  box-shadow: 0 0 8px #eab7b7; }
+
+.loginBox .loginBtn {
+  border: 1px solid #e22319;
+  border-radius: 2px;
+  color: #FFF;
+  background-color: #e22319;
+  /*登录*/
+  cursor: pointer;
+  float: right;
+  font: bold 13px Arial;
+  padding: 10px 50px;
+  color: #FFF; }
+
+.loginBtn_click {
+  color: #FFF;
+  text-decoration: none; }
+
+.loginBox a.forgetLink {
+  color: #ABABAB;
+  cursor: pointer;
+  float: right;
+  font: 11px/20px Arial;
+  text-decoration: none;
+  vertical-align: middle;
+  /*忘记密码*/ }
+
+.loginBox a.forgetLink:HOVER {
+  color: #000000;
+  text-decoration: none;
+  /*忘记密码*/ }
+
+.loginBox input#remember {
+  vertical-align: middle; }
+
+.loginBox label[for="remember"] {
+  font: 11px Arial; }
+
+.company_news {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.company_news p {
+  text-align: center; }
+
+.company_news p a {
+  text-decoration: none;
+  color: #000000; }

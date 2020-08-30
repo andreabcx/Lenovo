@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/require.js" async="true" defer data-main='js/main'></script>
+</head>
+
+<body>
+    <script>
+        var arr = [{
+                "id": 1,
+                "tit": "小新 15 2020英特尔酷睿i5",
+                "model": "第十代英特尔酷睿i5",
+                "NewPrice": 5199,
+                "OldPrice": 5399,
+                "img": "../images/xiaoxin15.jpg"
+            }, {
+                "id": 2,
+                "tit": "2020款 小新 Pro 13 ",
+                "model": "AMD Ryzen 7 4800U",
+                "NewPrice": 5599,
+                "OldPrice": 5799,
+                "img": "../images/pro13.jpg"
+            }, {
+                "id": 3,
+                "tit": "2020款小新 Pro 13 英特尔酷睿i7 ",
+                "model": "第十代英特尔酷睿i7",
+                "NewPrice": 6399,
+                "OldPrice": 6899,
+                "img": "../images/pro13i7.jpg"
+            }, {
+                "id": 4,
+                "tit": "小新 Pro 13s英特尔酷睿i5",
+                "model": "第十代英特尔酷睿i5-10210U",
+                "NewPrice": 6899,
+                "OldPrice": 7699,
+                "img": "../images/Pro13s.jpg"
+            }, {
+                "id": 5,
+                "tit": "小新 Pro 13s英特尔酷睿i5",
+                "model": "锐龙R7 RTX 2060 16G",
+                "NewPrice": 7299,
+                "OldPrice": 7499,
+                "img": "../images/xiaoxin15.jpg"
+            }, {
+                "id": 6,
+                "tit": "小新 Pro 13s英特尔酷睿i5",
+                "model": "锐龙R7 GTX 1650Ti 8G",
+                "NewPrice": 5799,
+                "OldPrice": 5999,
+                "img": "../images/xiaoxin15.jpg"
+            }, {
+                "id": 7,
+                "tit": "小新 Pro 13s英特尔酷睿i5",
+                "model": "锐龙R5标压 GTX 1650",
+                "NewPrice": 4499,
+                "OldPrice": 4699,
+                "img": "../images/xiaoxin15.jpg"
+            }, {
+                "id": 8,
+                "tit": "小新 Pro 13s英特尔酷睿i5",
+                "model": "锐龙R7 GTX1660Ti显卡",
+                "NewPrice": 5999,
+                "OldPrice": 6199,
+                "img": "../images/xiaoxin15.jpg"
+            }, {
+
+                "id": 9,
+                "tit": "天逸510Pro-14IMB",
+                "model": "英特尔酷睿十代",
+                "NewPrice": 4399,
+                "OldPrice": 4699,
+                "img": "./images/510pro.jpg"
+            }, {
+                "id": 10,
+                "tit": "AIO 520C-24IMB",
+                "model": "十代英特尔酷睿i5",
+                "NewPrice": 4399,
+                "OldPrice": 4599,
+                "img": "./images/AIO520C.jpg"
+            }, {
+                "id": 11,
+                "tit": "AIO 520C-24IMB",
+                "model": "锐龙R7 16G 512GB SSD",
+                "NewPrice": 5499,
+                "OldPrice": 5999,
+                "img": "./images/Y7000.jpg"
+            }, {
+                "id": 12,
+                "tit": "AIO 520C-24IMB",
+                "model": "十代i7 512GB SSD",
+                "NewPrice": 6599,
+                "OldPrice": 6999,
+                "img": "./images/Y7000.jpg"
+            }, {
+                "id": 13,
+                "tit": "AIO 520C-24IMB",
+                "model": "十代i5 MX350",
+                "NewPrice": 5099,
+                "OldPrice": 5499,
+                "img": "./images/Y7000.jpg"
+            }, {
+                "id": 14,
+                "tit": "aAIO 520C-24IMB",
+                "model": "十代酷睿i7 MX350",
+                "NewPrice": 5899,
+                "OldPrice": 6099,
+                "img": "./images/Y7000.jpg"
+            }, {
+                "id": 15,
+                "tit": "AIO 520C-24IMB",
+                "model": "锐龙R7 16GB内存",
+                "NewPrice": 4699,
+                "OldPrice": 4999,
+                "img": "./images/Y7000.jpg"
+            }, {
+                "id": 16,
+                "tit": "AIO 520C-24IMB",
+                "model": "十代i7 创意双屏",
+                "NewPrice": 9999,
+                "OldPrice": 10999,
+                "img": "./images/Y7000.jpg"
+            }, {
+                "id": 17,
+                "tit": "ThinkPad X1Carbon2020",
+                "model": "全新十代英特尔酷睿i7-",
+                "NewPrice": 9499,
+                "OldPrice": 9999,
+                "img": "./images/ThinkPadX1Carbon.jpg"
+            }, {
+                "id": 18,
+                "tit": "ThinkPad X13",
+                "model": "R9-4900HS RTX 2060MQ",
+                "NewPrice": 9999,
+                "OldPrice": 10499,
+                "img": "./images/ThinkPadX13.jpg"
+            }, {
+                "id": 19,
+                "tit": "ThinkPad T15",
+                "model": "R7-4800HS RTX 2060 Max-Q",
+                "NewPrice": 9999,
+                "OldPrice": 10999,
+                "img": "./images/ThinkPadT15.jpg"
+            }, {
+                "id": 20,
+                "tit": "ThinkPad T15",
+                "model": "魔霸4运动版",
+                "NewPrice": 11999,
+                "OldPrice": 12999,
+                "img": "./images/510pro.jpg"
+            }, {
+                "id": 21,
+                "tit": "ThinkPad T15",
+                "model": "十代i7 RTX 2070S",
+                "NewPrice": 16999,
+                "OldPrice": 17999,
+                "img": "./images/510pro.jpg"
+            }, {
+                "id": 22,
+                "tit": "ThinkPad T15",
+                "model": "十代i7 RTX 2070S",
+                "NewPrice": 17999,
+                "OldPrice": 18999,
+                "img": "./images/510pro.jpg"
+            }, {
+                "id": 23,
+                "tit": "ThinkPad T15",
+                "model": "十代i7 RTX 2070S",
+                "NewPrice": 24999,
+                "OldPrice": 25999,
+                "img": "./images/510pro.jpg"
+            }, {
+                "id": 24,
+                "tit": "ThinkPad T15",
+                "model": "高通骁龙865 Plus",
+                "NewPrice": 4299,
+                "OldPrice": 4299,
+                "img": "./images/510pro.jpg"
+            }, {
+                "id": 25,
+                "tit": "拯救者电竞手机",
+                "model": "次世代中置架构/高通骁龙865",
+                "NewPrice": 3999,
+                "OldPrice": 4399,
+                "img": "../images/deliverer.jpg"
+            }, {
+                "id": 26,
+                "tit": "Lenovo Type-C ",
+                "model": "高速传输数据丨充电更快",
+                "NewPrice": 11999,
+                "OldPrice": 15999,
+                "img": "../images/Type-C.jpg"
+            }, {
+                "id": 27,
+                "tit": "Lenovo Type-C ",
+                "model": "颜值正义，雪武战姬",
+                "NewPrice": 2499,
+                "OldPrice": 2799,
+                "img": "../images/charge.jpg"
+            }, {
+                "id": 28,
+                "tit": "Lenovo Type-C ",
+                "model": "一键性能手游加速/2.5G端口/WiFi6",
+                "NewPrice": 1579,
+                "img": "../images/holder.jpg"
+            }, {
+                "id": 29,
+                "tit": "RT-AC86U",
+                "model": "双频全千兆 AiMesh",
+                "NewPrice": 709,
+                "OldPrice": 1029,
+                "img": "../images/holder.jpg"
+            }, {
+                "id": 30,
+                "tit": "Lenovo Type-C ",
+                "model": "可定制铭牌可拆卸掌托",
+                "NewPrice": 1099,
+                "OldPrice": 1399,
+                "img": "../images/holder.jpg"
+            }, {
+                "id": 31,
+                "tit": "Lenovo Type-C ",
+                "model": "OLED/360mm冰排",
+                "NewPrice": 1999,
+                "OldPrice": 2699,
+                "img": "../images/holder.jpg"
+            }, {
+                "id": 32,
+                "tit": "RT-AX82U",
+                "model": "双频5400M WiFi6",
+                "NewPrice": 1099,
+                "OldPrice": 1299,
+                "img": "../images/holder.jpg"
+        }]
+        var str = JSON.stringify(arr);
+        document.write(str);
+    </script>
+</body>
+
+</html>

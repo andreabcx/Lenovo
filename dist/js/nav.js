@@ -24,6 +24,8 @@ define([
         }
 
     })
+
+    
     return {
         swiper: swiper
     }
